@@ -1,4 +1,9 @@
-# Baseline MLP for MNIST dataset
+#Create a CNN 
+
+
+
+
+""" # Baseline MLP for MNIST dataset
 import numpy
 from keras.datasets import mnist
 from keras.models import Sequential
@@ -38,4 +43,4 @@ def baseline_model():
 model = baseline_model()
 
 # Fit the model. RIP my gpu. This takes 2 hours.
-model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=10, batch_size=200, verbose=2)
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=10, batch_size=200, verbose=2) """
