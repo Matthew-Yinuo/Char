@@ -41,6 +41,13 @@ def baseline_model():
 	model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 	return model
 
+# build the model
+model = baseline_model()
+# Fit the model
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=10, batch_size=200)
+# Final evaluation of the model
+scores = model.evaluate(X_test, y_test, verbose=0)
+print("CNN Error: %.2f%%" % (100-scores[1]*100))
 
 
 
