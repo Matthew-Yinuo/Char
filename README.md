@@ -29,9 +29,13 @@ The current neural network structure is as follows:
 
 ## Simple CNN Result:
 Train on 60000 samples, validate on 10000 samples
+
 Epoch 1/10
+
 13m - loss: 0.2981 - acc: 0.9015 - val_loss: 0.1522 - val_acc: 0.9571
+
 Epoch 2/10
+
 13m - loss: 0.1215 - acc: 0.9478 - val_loss: 0.0921 - val_acc: 0.9705
 Epoch 3/10
 13m - loss: 0.0820 - acc: 0.9694 - val_loss: 0.0781 - val_acc: 0.9770
