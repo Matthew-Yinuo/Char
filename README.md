@@ -15,15 +15,13 @@ Our current neural network structure is as follows:
 **Visible Layer (784 Inputs) >> Hidden Layer (784 Neurons) >> Output Layer (10 Outputs)**
 
 ## Simple Convolutional Neural Network for MNIST
-As expected, we achieved around 1-2% error which is great. However, we can do better. Here, we take advantage of Kera's capability of creating convolutional neural networks. We will use all aspects of a modern CNN implementation, including convolutional layers, pooling layers, and dropout layers.
-Here are our changes for the baseline model:
-We add a convolutional layer with 32 feature maps, with a size of 5 x 5. This is also our input layer which expects images to be added.
-We then define a pool size of 2 x 2.
-We randomly dropout 20% of our neurons to reduce the amount of overfitting.
-We then flatten our data.
-We add 128 neurons with a rectifer activation function like above.
-Finally we use 10 neurons for the 10 prediction classes with a softmax activation function to output probability-like prediction for each class.
-Our current neural network structure is as follows:
+As expected, we achieved a 1-2% error which is pretty good. We can do better by using all aspects of a modern CNN implementation, like convolutional layers, pooling layers, and dropout layers.
+The changes to our model are as follows:
+A convolutional layer was added with 32 feature maps, with a size of 5 x 5. Also acts as our input layer which expects images to be added.
+Dropout 20% of neurons to reduce the amount of overfitting.
+Flatten the data using Theanos backend
+Finally use 10 neurons for the 10 prediction classes with a softmax (Adam) activation function to output probability-like prediction for each class.
+The current neural network structure is as follows:
 
 **Visible Layer (1x28x28 Inputs) >> Convolutional Layer (32 maps, 5x5) >> Max Pooling Layer (2x2) >> Dropout Layer (20%) >> Flatten Layer >> Hidden Layer (128 Neurons) >> Output Layer (10 Outputs)**
 
