@@ -26,3 +26,28 @@ Finally use 10 neurons for the 10 prediction classes with a softmax (Adam) activ
 The current neural network structure is as follows:
 
 **Visible Layer (1x28x28 Inputs) >> Convolutional Layer (32 maps, 5x5) >> Max Pooling Layer (2x2) >> Dropout Layer (20%) >> Flatten Layer >> Hidden Layer (128 Neurons) >> Output Layer (10 Outputs)**
+
+## Simple CNN Result:
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/10
+13m - loss: 0.2981 - acc: 0.9015 - val_loss: 0.1522 - val_acc: 0.9571
+Epoch 2/10
+13m - loss: 0.1215 - acc: 0.9478 - val_loss: 0.0921 - val_acc: 0.9705
+Epoch 3/10
+13m - loss: 0.0820 - acc: 0.9694 - val_loss: 0.0781 - val_acc: 0.9770
+Epoch 4/10
+12m - loss: 0.0606 - acc: 0.9856 - val_loss: 0.0754 - val_acc: 0.9768
+Epoch 5/10
+13m - loss: 0.0375 - acc: 0.9892 - val_loss: 0.0663 - val_acc: 0.9792
+Epoch 6/10
+13m - loss: 0.0270 - acc: 0.9926 - val_loss: 0.0612 - val_acc: 0.9810
+Epoch 7/10
+13m - loss: 0.0211 - acc: 0.9948 - val_loss: 0.0619 - val_acc: 0.9811
+Epoch 8/10
+13m - loss: 0.0142 - acc: 0.9968 - val_loss: 0.0625 - val_acc: 0.9802
+Epoch 9/10
+13m - loss: 0.0110 - acc: 0.9977 - val_loss: 0.0549 - val_acc: 0.9812
+Epoch 10/10
+11m - loss: 0.0082 - acc: 0.9984 - val_loss: 0.0573 - val_acc: 0.9824
+Baseline Error: 1.76%
+
