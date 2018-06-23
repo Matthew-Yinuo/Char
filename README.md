@@ -1,5 +1,7 @@
 # Digit Recognition using Keras and TensorFlow
 ## Introduction
+The steps for the assignment are commented in the python file.
+
 I'm going to use Keras with TensorFlow to sort MNIST handwritten dataset. 
 
 ### MNIST Dataset
@@ -24,4 +26,3 @@ Finally use 10 neurons for the 10 prediction classes with a softmax (Adam) activ
 The current neural network structure is as follows:
 
 **Visible Layer (1x28x28 Inputs) >> Convolutional Layer (32 maps, 5x5) >> Max Pooling Layer (2x2) >> Dropout Layer (20%) >> Flatten Layer >> Hidden Layer (128 Neurons) >> Output Layer (10 Outputs)**
-
