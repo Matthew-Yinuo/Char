@@ -2,7 +2,7 @@
 ## Introduction
 The steps for the assignment are commented in the python file.
 
-I'm going to use Keras with TensorFlow to sort MNIST handwritten dataset. 
+I'm going to use Keras with Theanos to sort MNIST handwritten dataset. 
 
 ### MNIST Dataset
 This dataset was constructed from a number of scanned document datasets availabe from the National Institute of Standards and Technology (NIST). These images were normalized in size and centered. Each image is in a 28x28 square (784 pixels). 60,000 images were used to train a model and 10,000 were used to test it. Excellent results achieve a prediction error of 1%. State-of-the-art results are approximately 0.2% which could be achieved with a large convolutional neural network.
