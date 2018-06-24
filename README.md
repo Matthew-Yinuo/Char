@@ -1,4 +1,4 @@
-# Digit Recognition using Keras and TensorFlow
+# MNIST Character Recognition using Keras and Theanos
 ## Introduction
 The steps for the assignment are commented in the python file.
 
